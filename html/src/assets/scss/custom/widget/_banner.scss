@@ -1,0 +1,74 @@
+body.navbar-expanded .chat-bot-banner,
+body.offcanvas-open .chat-bot-banner {
+  z-index: -1;
+}
+
+.chat-bot-banner {
+  background-color: var(--bs-gray-900);
+  padding: 150px 0;
+
+  .img-1 {
+    top: 30%;
+    left: 7%;
+    z-index: 1;
+  }
+
+  .img-2 {
+    top: 13%;
+    left: 78%;
+    z-index: 1;
+  }
+
+  .img-3 {
+    top: 10%;
+    left: 25%;
+  }
+
+  .img-4 {
+    top: 58%;
+    left: 74%;
+  }
+
+  .img-5 {
+    top: 53%;
+    left: -1%;
+  }
+
+  .img-6 {
+      top: 52%;
+    right: -2%;
+    z-index: 0;
+  }
+
+  .img-7 {
+    top: 6%;
+    left: 41%;
+  }
+
+  .img-8 {
+    top: 75%;
+    left: 25%;
+  }
+
+  .img-9 {
+    top: 95%;
+    left: 36%;
+  }
+}
+
+// banner 1024px
+@media (max-width: 992px) {
+
+  .chat-bot-banner {
+    padding: 50px 0 50px 0;
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4{
+      display: none;
+    }
+  }
+
+
+}
